@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "268125255733",
+    "firebase_url": "https://utilitysoft-e6966.firebaseio.com",
+    "project_id": "utilitysoft-e6966",
+    "storage_bucket": "utilitysoft-e6966.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268125255733:android:22486d8c436895a5",
+        "android_client_info": {
+          "package_name": "com.mirroringsample.encode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268125255733-scc32r26i5ar237mvevu96ov6rsi6908.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAzS31m64U6N-kwQpNodtTrl9lW9F7EFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268125255733-scc32r26i5ar237mvevu96ov6rsi6908.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

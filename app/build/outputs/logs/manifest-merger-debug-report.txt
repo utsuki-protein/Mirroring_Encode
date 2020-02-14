@@ -1,0 +1,510 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/45a45fe7bd913ee72cb42f0d50ee4680/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/af61302f2716cec4ccefb985fff253ae/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7108a9e2223e8fd69ddbcf5aa1f8751e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/90f711d1ff54cfc94b5a6e8e2c629e90/firebase-core-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6ad2fe3db6ee75fe05aafb2963474901/firebase-analytics-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e785d45112892ee9ebcadfad086afd35/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7ce84ace74216e27a347c65291efe435/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0132cb071fbb2c6cb1ffc1133cff896c/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/77e12672aeb138d1f6e0e7c19f0c7423/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/adba37cfa799ee3aa71846a9798ccb29/play-services-measurement-base-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc4ef0071e13654b2b84f6f914cff7fa/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/662314eb649e8ae8010eb126a3cdde3d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/aa51f45c04f326074780df402c14b895/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cca79d5fd6880107bc22df8fb39217a7/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d12b7edb9e95e9d2ee5cb4c53fe07c1/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7135ef49fce0ca29710a4f9192a96be2/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/c682f367f880bf826b81542f2a16b0a5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/10205d4547e3761fddc947608566b0bf/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/9370d6192a6c07ffaa7eac923c27773d/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7881941369ec424b176a6010614d620a/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a7addc608763b2c24e7b51f60982f4bb/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb4fa2861c09b49a1c17f604cef198a3/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/4acf0b24c6186e07a91be31f148fa770/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/dd4840d9a7868f502857a53672801574/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e57c7b26a4163be6ecb844e015344d25/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/5411ccccd4dc23967dde29439bfb0e18/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/17bb2c44a76d731691601e7660c595f2/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/c7b614ea214854e9059b77836e3dda2b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e95e623ebbe25eadbe5b9535260d976b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6fea3f890552bd8846f132cc1e57d210/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7d87f0ec078d6c88730826ca7914083b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cd2d4dc1a7d7201ddd5b8290d139c13e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ff7c923057a3b8fdc4aa980a6e3620e1/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc095ca2870fa4a29ba919228417b4cb/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:3:9-45
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:1-58:12
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INJECT_EVENTS
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:6:22-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:9:22-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:14:5-64
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:14:22-62
+uses-permission#android.hardware.camera.autofocus
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:15:22-70
+uses-feature#android.hardware.camera
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:17:5-59
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:17:19-57
+application
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:20:5-56:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7108a9e2223e8fd69ddbcf5aa1f8751e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7108a9e2223e8fd69ddbcf5aa1f8751e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/90f711d1ff54cfc94b5a6e8e2c629e90/firebase-core-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/90f711d1ff54cfc94b5a6e8e2c629e90/firebase-core-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6ad2fe3db6ee75fe05aafb2963474901/firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6ad2fe3db6ee75fe05aafb2963474901/firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:18:5-24:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e785d45112892ee9ebcadfad086afd35/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e785d45112892ee9ebcadfad086afd35/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7ce84ace74216e27a347c65291efe435/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7ce84ace74216e27a347c65291efe435/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0132cb071fbb2c6cb1ffc1133cff896c/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0132cb071fbb2c6cb1ffc1133cff896c/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/77e12672aeb138d1f6e0e7c19f0c7423/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/77e12672aeb138d1f6e0e7c19f0c7423/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/adba37cfa799ee3aa71846a9798ccb29/play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/adba37cfa799ee3aa71846a9798ccb29/play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc4ef0071e13654b2b84f6f914cff7fa/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc4ef0071e13654b2b84f6f914cff7fa/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/662314eb649e8ae8010eb126a3cdde3d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/662314eb649e8ae8010eb126a3cdde3d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/dd4840d9a7868f502857a53672801574/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/dd4840d9a7868f502857a53672801574/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:25:13-39
+	android:label
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:23:13-45
+	android:roundIcon
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:24:13-58
+	android:icon
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:22:13-47
+	android:allowBackup
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:21:13-39
+	android:theme
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:26:13-44
+activity#com.mirroringsample.encode.MediaProjectionModel
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:screenOrientation
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:28:17-54
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:27:19-55
+activity#com.mirroringsample.encode.MainActivity
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:32:9-43:20
+	android:screenOrientation
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:34:17-54
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:33:17-45
+intent-filter#action:name:android.intent.action.MAIN+action:name:com.google.firebase.MESSAGING_EVENT+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:37:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:38:25-66
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:39:25-75
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:41:27-74
+activity#com.mirroringsample.encode.DeviceListActivity
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:44:9-49:20
+	android:label
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:47:17-54
+	android:configChanges
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:46:17-67
+	android:theme
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:48:17-65
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:45:17-51
+service#com.mirroringsample.encode.MirroringService
+ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:51:9-55:19
+	android:enabled
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:53:17-39
+	android:foregroundServiceType
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:54:17-64
+	android:name
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:52:17-49
+uses-sdk
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/45a45fe7bd913ee72cb42f0d50ee4680/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/45a45fe7bd913ee72cb42f0d50ee4680/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/af61302f2716cec4ccefb985fff253ae/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/af61302f2716cec4ccefb985fff253ae/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7108a9e2223e8fd69ddbcf5aa1f8751e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7108a9e2223e8fd69ddbcf5aa1f8751e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/90f711d1ff54cfc94b5a6e8e2c629e90/firebase-core-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/90f711d1ff54cfc94b5a6e8e2c629e90/firebase-core-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6ad2fe3db6ee75fe05aafb2963474901/firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6ad2fe3db6ee75fe05aafb2963474901/firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:12:5-14:63
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e785d45112892ee9ebcadfad086afd35/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e785d45112892ee9ebcadfad086afd35/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7ce84ace74216e27a347c65291efe435/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7ce84ace74216e27a347c65291efe435/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0132cb071fbb2c6cb1ffc1133cff896c/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0132cb071fbb2c6cb1ffc1133cff896c/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/77e12672aeb138d1f6e0e7c19f0c7423/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/77e12672aeb138d1f6e0e7c19f0c7423/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/adba37cfa799ee3aa71846a9798ccb29/play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/adba37cfa799ee3aa71846a9798ccb29/play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc4ef0071e13654b2b84f6f914cff7fa/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc4ef0071e13654b2b84f6f914cff7fa/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/662314eb649e8ae8010eb126a3cdde3d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/662314eb649e8ae8010eb126a3cdde3d/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/aa51f45c04f326074780df402c14b895/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/aa51f45c04f326074780df402c14b895/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cca79d5fd6880107bc22df8fb39217a7/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cca79d5fd6880107bc22df8fb39217a7/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d12b7edb9e95e9d2ee5cb4c53fe07c1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d12b7edb9e95e9d2ee5cb4c53fe07c1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7135ef49fce0ca29710a4f9192a96be2/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7135ef49fce0ca29710a4f9192a96be2/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/c682f367f880bf826b81542f2a16b0a5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/c682f367f880bf826b81542f2a16b0a5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/10205d4547e3761fddc947608566b0bf/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/10205d4547e3761fddc947608566b0bf/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/9370d6192a6c07ffaa7eac923c27773d/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/9370d6192a6c07ffaa7eac923c27773d/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7881941369ec424b176a6010614d620a/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7881941369ec424b176a6010614d620a/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a7addc608763b2c24e7b51f60982f4bb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a7addc608763b2c24e7b51f60982f4bb/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb4fa2861c09b49a1c17f604cef198a3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb4fa2861c09b49a1c17f604cef198a3/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/4acf0b24c6186e07a91be31f148fa770/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/4acf0b24c6186e07a91be31f148fa770/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/dd4840d9a7868f502857a53672801574/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/dd4840d9a7868f502857a53672801574/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e57c7b26a4163be6ecb844e015344d25/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e57c7b26a4163be6ecb844e015344d25/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/5411ccccd4dc23967dde29439bfb0e18/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/5411ccccd4dc23967dde29439bfb0e18/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/17bb2c44a76d731691601e7660c595f2/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/17bb2c44a76d731691601e7660c595f2/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/c7b614ea214854e9059b77836e3dda2b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/c7b614ea214854e9059b77836e3dda2b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e95e623ebbe25eadbe5b9535260d976b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/e95e623ebbe25eadbe5b9535260d976b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6fea3f890552bd8846f132cc1e57d210/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6fea3f890552bd8846f132cc1e57d210/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7d87f0ec078d6c88730826ca7914083b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7d87f0ec078d6c88730826ca7914083b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cd2d4dc1a7d7201ddd5b8290d139c13e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cd2d4dc1a7d7201ddd5b8290d139c13e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ff7c923057a3b8fdc4aa980a6e3620e1/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ff7c923057a3b8fdc4aa980a6e3620e1/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc095ca2870fa4a29ba919228417b4cb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/bc095ca2870fa4a29ba919228417b4cb/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:27:5-43
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:14:9-60
+	android:targetSdkVersion
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:28-51
+uses-permission#android.permission.INTERNET
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.7.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2b689e9ec481334bfb7334007105b471/crashlytics-core-2.7.0/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/0d41aa6a245c7f07d89294621973b20d/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/6e777da49cea5dce158a8bce693a8fb0/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/55749b9975d5db58eaac5fc26f538bd8/fabric-1.4.8/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:22-64
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/fbcfc6655c833e26f3e4ef4ce10565e8/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/44c4c06030424b3227bcb6a7750cc5cf/play-services-measurement-impl-17.2.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

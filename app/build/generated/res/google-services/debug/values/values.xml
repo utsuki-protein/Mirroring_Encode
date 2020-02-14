@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">268125255733-scc32r26i5ar237mvevu96ov6rsi6908.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://utilitysoft-e6966.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">268125255733</string>
+</resources>

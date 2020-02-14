@@ -1,0 +1,7 @@
+#Fri Feb 14 11:36:02 JST 2020
+base.0=/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

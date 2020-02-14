@@ -1,0 +1,265 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mirroringsample.encode"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml
+10
+11    <!-- 擬似タッチイベントのための権限 -->
+12    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+12-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:6:5-72
+12-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:6:22-69
+13
+14    <!-- ミラーリングのフォアグラウンドサービスの権限 -->
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:9:5-77
+15-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:11:5-73
+17-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:11:22-71
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:12:5-80
+18-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:14:5-64
+20-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:14:22-62
+21    <uses-permission android:name="android.hardware.camera.autofocus" />
+21-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:15:5-72
+21-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:15:22-70
+22
+23    <uses-feature android:name="android.hardware.camera" />
+23-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:17:5-59
+23-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:17:19-57
+24
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:5-67
+25-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:16:22-64
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
+26-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:24:22-76
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+27-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:25:22-65
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+30
+31    <application
+31-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:20:5-56:19
+32        android:allowBackup="true"
+32-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:21:13-39
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/ec0a8cf90bc9768b209c0318b6f8fe5e/core-1.1.0/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:22:13-47
+36        android:label="@string/app_name"
+36-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:23:13-45
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:24:13-58
+38        android:supportsRtl="true"
+38-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:25:13-39
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:26:13-44
+41        <activity
+41-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:27:9-30:20
+42            android:name="com.mirroringsample.encode.MediaProjectionModel"
+42-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:27:19-55
+43            android:screenOrientation="landscape" >
+43-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:28:17-54
+44        </activity>
+45        <activity
+45-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:32:9-43:20
+46            android:name="com.mirroringsample.encode.MainActivity"
+46-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:33:17-45
+47            android:screenOrientation="landscape" >
+47-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:34:17-54
+48            <intent-filter>
+48-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:37:13-42:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:38:17-68
+49-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:38:25-66
+50                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+50-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:39:17-77
+50-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:39:25-75
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:41:17-76
+52-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:41:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:44:9-49:20
+56            android:name="com.mirroringsample.encode.DeviceListActivity"
+56-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:45:17-51
+57            android:configChanges="orientation|keyboardHidden"
+57-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:46:17-67
+58            android:label="@string/select_device"
+58-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:47:17-54
+59            android:theme="@android:style/Theme.Holo.Dialog" >
+59-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:48:17-65
+60        </activity>
+61        <!-- android:screenOrientation="landscape" -->
+62        <service
+62-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:51:9-55:19
+63            android:name="com.mirroringsample.encode.MirroringService"
+63-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:52:17-49
+64            android:enabled="true"
+64-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:53:17-39
+65            android:foregroundServiceType="mediaProjection" />
+65-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:54:17-64
+66        <!--
+67             FirebaseMessagingService performs security checks at runtime,
+68             but set to not exported to explicitly avoid allowing another app to call it.
+69        -->
+70        <service
+70-->[com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+71            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+71-->[com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+73            <intent-filter android:priority="-500" >
+73-->[com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:13-33:29
+73-->[com.google.firebase:firebase-messaging:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/3af6139eb29bd87429d9f9cbaa3dd81f/jetified-firebase-messaging-20.0.0/AndroidManifest.xml:31:28-51
+74                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+74-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:39:17-77
+74-->/Users/yumamiyata/Documents/GitHub/MirroringSample_Encode/app/src/main/AndroidManifest.xml:39:25-75
+75            </intent-filter>
+76        </service>
+77
+78        <provider
+78-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
+79            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+79-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
+80            android:authorities="com.mirroringsample.encode.crashlyticsinitprovider"
+80-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
+81            android:exported="false"
+81-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+82            android:initOrder="90" />
+82-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/39f33ceeef9202f22cc24a6b87162d7b/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
+83
+84        <receiver
+84-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+85            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+85-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+88        </receiver>
+89        <receiver
+89-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+90            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+90-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+92            android:exported="true"
+92-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+93            android:permission="android.permission.INSTALL_PACKAGES" >
+93-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+94            <intent-filter>
+94-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+95                <action android:name="com.android.vending.INSTALL_REFERRER" />
+95-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+95-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+96            </intent-filter>
+97        </receiver>
+98
+99        <service
+99-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+100            android:name="com.google.android.gms.measurement.AppMeasurementService"
+100-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+102            android:exported="false" />
+102-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+103        <service
+103-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+104            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+104-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+107            android:permission="android.permission.BIND_JOB_SERVICE" />
+107-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/59be9bc806aaed7ea32cfdcf2f71c226/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+108        <service
+108-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:28:13-84
+110            android:exported="false" >
+110-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:29:13-37
+111            <meta-data
+111-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+112                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+112-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/2c7004e235c4d450c76cde4885be84ed/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+115-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+117        </service>
+118
+119        <receiver
+119-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+120            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+120-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+121            android:exported="true"
+121-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+122            android:permission="com.google.android.c2dm.permission.SEND" >
+122-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+123            <intent-filter>
+123-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+124                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+124-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+124-->[com.google.firebase:firebase-iid:20.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/a111a2ee54c8954064c19cc2f305e7fe/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+125            </intent-filter>
+126        </receiver>
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+130            android:authorities="com.mirroringsample.encode.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/7a4a4da25a24d18e8fbd0ff19a0920f9/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/cb6b3044d8cd95ba8290023d24f489d8/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:17.0.0] /Users/yumamiyata/.gradle/caches/transforms-2/files-2.1/f0437734803dd031b054c6dabafbe4b4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+142    </application>
+143
+144</manifest>
